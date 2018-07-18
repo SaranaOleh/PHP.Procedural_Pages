@@ -1,0 +1,10 @@
+*, html, body{margin: 0; padding: 0;list-style: none;text-decoration: none;box-sizing: border-box;}
+.error{border: 1px solid red;}
+body{text-align: center;background: #fbec9b;}
+form{transform: translate(-50%, -50%);position: absolute;top:50%;left: 50%;}
+input{border: 1px solid black;}
+form p{margin:10px 0;}
+form a{color: black;border: 1px solid grey;border-radius: 4px;padding:0 2px 2px 0;background: #f3f3f3;margin-top: 20px;}
+span{color: red;position: absolute;top: -10px;transform: translate(-50%, -50%);}
+.span1{left: 25%;}
+.span2{left: 75%;width: 175px;}

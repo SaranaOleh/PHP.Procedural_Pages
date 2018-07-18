@@ -1,0 +1,29 @@
+*, html, body{margin: 0; padding: 0;list-style: none;text-decoration: none;box-sizing: border-box;}
+body{padding: 10%;position: relative;}
+header{border-top: 1px solid black; padding-top: 5px;}
+.nav {display: inline-block;}
+.nav li{display: inline-block;}
+form {display: inline-block;position: relative;width: 240px;float: right;}
+form div{display: block;}
+form input{position: absolute;right: 0;}
+.pass_block, .log_block{margin-bottom: 5px;}
+form a, .nav li a{color: black;border: 1px solid grey;border-radius: 4px;padding:0 2px 2px 0;background: #f3f3f3;}
+.nav li a{color: black;font-size: 1.6em;font-weight: bolder;line-height: 66px;margin-right: 10px;}
+.wellcome{font-size: 1.2em;margin-bottom: 10px;}
+main{text-align: center;clear: both;margin-top: 10px;padding-bottom: 50px;border-top: 1px solid black;border-bottom: 1px solid black;}
+.user{font-size: 1.4em;font-weight: bold;color: black;}
+.error{border: 2px solid red;}
+span{color: red;}
+
+.news li:not(:last-child){margin-bottom: 40px;}
+.news li:first-child{margin-top: 20px;}
+.news li{font-size: 1.5em;text-align: left;}
+
+.gallery{margin-top: 20px;text-align: center;}
+.gallery li{display: inline-block;width: 20%;}
+.gallery li:not(:last-child){margin-right: 20px;}
+.gallery li img{width: 100%;}
+
+footer{height: 50px;position: absolute;bottom: 10vh;}
+footer p{line-height: 50px;}
+
